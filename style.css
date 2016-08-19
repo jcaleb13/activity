@@ -1,12 +1,13 @@
-
 body {
     text-align: left;
-    background-image: url('img/blue.jpg');
+    background-image: url('');
+	background-repeat: no-repeat;
+	background-position: center top; 
     background-attachment: fixed;
     color: black;
     font-size: 87.5%;
-    font-family: Arial, 'Lucida Sans Unicode';
-    background-color: gray; 
+    font-family: Comic Sans MS;
+    background-color: black; 
 
 }
 .logo{
@@ -37,13 +38,13 @@ a:link, a:visited{
     color: #FF8C00;
 }
 a:hover, a:active{
-    background-color: #FF8c00;
+    background-color: black;
     color: #FFF; 
 }
 
 .body{
     margin: 0 auto;
-    width: 100%;
+    width: 60%;
     clear: both; 
 }
 .mainHeader img{
@@ -54,8 +55,8 @@ a:hover, a:active{
     margin-bottom: 0;
 }
 .mainHeader nav{
-text-align: center;
-    background-color: slateblue;
+	text-align: right;
+    background-color: #191919;
     height: 40px;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -68,7 +69,7 @@ text-align: center;
     margin: 0 auto;
 }
 .mainHeader nav ul li{
-    text-align: center;
+    text-align: right;
     display: inline;
 }
 .mainHeader nav a:link, .mainHeader nav a:visited{
@@ -79,7 +80,7 @@ text-align: center;
 }
 .mainHeader nav a:hover, .mainHeader nav a:active,
 .mainHeader nav .active a:link, .mainHeader nav .active a.visited{
-    background-color: skyblue;
+    background-color: #4c4c4c;
     text-shadow: none;
 }
 .mainHeader nav ul li a{
@@ -88,21 +89,28 @@ text-align: center;
     -webkit-border-radius: 3px;
 }
 .mainContent{
+	text-align:center;
     line-height: 25px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+		padding-top: 2%;
+		
 }
+
 .content{
+
     width: 100%;
-    float: left;
+    float: center;
+
 }
 .topcontent{
-    background-color: #FFF;
+		background-color: lightgray;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     padding: 3% 5%;
+	
     /*margin-top: 2%; */ 
 }
 .bottomcontent{
@@ -165,6 +173,7 @@ text-align: center;
     width: 92%;
     margin: 10px auto;
     color: #FFF;
+	text-align: center;
 }
 
 /*css for the about page*/
@@ -177,5 +186,9 @@ text-align: center;
     -moz-boder-radius: 3px;
     -webkit-border-radius: 3px;
     padding: 1% 1%;
-    margin-bottom: 1%;    
+    margin-bottom: 1%;  	
+}
+hr {
+border-top: 1px solid yellow; 
+border-bottom: 1px solid yellow; 
 }
